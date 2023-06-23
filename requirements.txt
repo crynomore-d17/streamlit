@@ -7,5 +7,4 @@ pandas
 joblib
 scikit-learn
 nltk
-json
 re

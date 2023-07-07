@@ -1,10 +1,10 @@
-numpy
+numpy==1.20.1
 streamlit
 seaborn
-matplotlib
-plotly
-pandas
-joblib
+matplotlib==3.4.1
+plotly==4.14.3
+pandas==1.2.3
+joblib==0.16.0
 scikit-learn
 nltk
 Pillow

@@ -1,5 +1,5 @@
 numpy
-streamlit==v1.24.0
+streamlit
 seaborn
 matplotlib
 plotly

@@ -76,7 +76,7 @@ elif choice == "Prediksi Analisis":
 
     if push:
         preprocessed_input = preprocess_text(input_text)
-        loaded_model = load('decision_tree_model.joblib')
+        loaded_model = load('decision_tree_model3.joblib')
         loaded_vectorizer = load('vectorizer.joblib')
         input_vector = loaded_vectorizer.transform([preprocessed_input])
         label_RF = loaded_model.predict(input_vector)[0]
